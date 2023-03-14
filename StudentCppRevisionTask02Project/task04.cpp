@@ -25,6 +25,8 @@
 */
 
 int task04(int number) {
-
+	if (number < 0) {
+		return (number * -1) % 1000 / 100;
+	}
 	return ((number % 1000) / 100);
 }
