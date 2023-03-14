@@ -22,11 +22,7 @@
 */
 
 int task01(int seeker, int coin) {
-	cout << "Введите количество искателей" << endl;
-	cin >> seeker;
-		cout << "Введите количество монет" << endl;
-	cin >> coin;
-	cout << " Количество монет которое будет у них по ровну: " << coin / seeker << endl;
-
-	return 0;
+	cin >> seeker >> coin;
+	 
+	return seeker / coin;
 }

@@ -21,5 +21,8 @@
 */
 
 int taskX(int number) {
-	return 0;
+	if (number % 2 == 0) {
+		return number + 2;
+	}
+	return number + 1;
 }
