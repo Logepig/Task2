@@ -1,7 +1,6 @@
 #include "tests.h"
 
 int main(void) {
-	setlocale(LC_ALL, "Russian");
 	testingTask01();
 	testingTask02();
 	testingTask03();

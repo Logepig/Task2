@@ -22,7 +22,6 @@
 */
 
 int task01(int seeker, int coin) {
-	cin >> seeker >> coin;
 	 
-	return seeker / coin;
+	return coin / seeker;
 }

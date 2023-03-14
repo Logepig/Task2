@@ -25,6 +25,6 @@
 */
 
 int task04(int number) {
-	cin >> number;
+
 	return ((number % 1000) / 100);
 }
